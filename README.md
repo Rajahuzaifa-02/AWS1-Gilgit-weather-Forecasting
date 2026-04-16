@@ -1,4 +1,37 @@
----
+# 🌤 AWS1 Gilgit Weather Forecast System
+
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/Huzii48662/aws1-gilgit-weather-forecast)
+[![Python](https://img.shields.io/badge/Python-3.11-green)](https://python.org)
+[![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)](https://xgboost.readthedocs.io)
+
+A production-deployed machine learning weather forecasting system
+for the AWS1 Automatic Weather Station in Gilgit, Pakistan.
+
+## 🚀 Live Demo
+**[→ Open Dashboard](https://huggingface.co/spaces/Huzii48662/aws1-gilgit-weather-forecast)**
+
+## 📍 Station Details
+| Parameter | Value |
+|-----------|-------|
+| Station   | AWS1 Gilgit |
+| Logger    | Campbell Scientific CR350 |
+| Location  | 35.9°N, 74.3°E |
+| Altitude  | ~1500m |
+| Interval  | 10-minute |
+| Data      | May 2024 – Feb 2026 |
+
+## 🎯 What It Does
+Forecasts 5 weather variables at 5 time horizons:
+
+| Variable | +1hr | +3hr | +6hr | +12hr | +24hr |
+|----------|------|------|------|-------|-------|
+| Temperature (°C) | R²=0.991 | R²=0.978 | R²=0.943 | R²=0.900 | R²=0.872 |
+| Humidity (%) | R²=0.964 | R²=0.907 | R²=0.821 | R²=0.663 | R²=0.455 |
+| Pressure (hPa) | R²=0.995 | R²=0.983 | R²=0.940 | R²=0.825 | R²=0.769 |
+| Wind Speed (m/s) | R²=0.559 | R²=0.330 | R²=0.212 | R²=0.001 | R²=0.163 |
+| Rain (F1 Score) | 0.509 | 0.462 | 0.479 | 0.497 | 0.524 |
+
+## 🏗️ Architecture---
 title: AWS1 Gilgit Weather Forecast
 emoji: 🌤
 colorFrom: blue
