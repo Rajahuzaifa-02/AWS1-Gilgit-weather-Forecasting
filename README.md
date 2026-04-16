@@ -31,20 +31,7 @@ Forecasts 5 weather variables at 5 time horizons:
 | Wind Speed (m/s) | R²=0.559 | R²=0.330 | R²=0.212 | R²=0.001 | R²=0.163 |
 | Rain (F1 Score) | 0.509 | 0.462 | 0.479 | 0.497 | 0.524 |
 
-## 🏗️ Architecture---
-title: AWS1 Gilgit Weather Forecast
-emoji: 🌤
-colorFrom: blue
-colorTo: purple
-sdk: streamlit
-sdk_version: 1.32.0
-app_file: streamlit_app.py
-pinned: false
----
-
-# AWS1 Gilgit Weather Forecast System
-
-A machine learning based weather forecasting system for Gilgit, Pakistan.
+A machine learning-based weather forecasting system for Gilgit, Pakistan.
 
 ## About
 - **Station:** AWS1 Gilgit (Campbell Scientific CR350)
